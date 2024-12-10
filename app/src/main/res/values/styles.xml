@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="cr20">
+        <item name="cornerSize">20dp</item>
+    </style>
+    <style name="cr16">
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="cr50">
+        <item name="cornerSize">50dp</item>
+    </style>
+    <style name="tl49tr51br51bl50">
+        <item name="cornerSizeTopRight">51dp</item>
+        <item name="cornerSizeTopLeft">49dp</item>
+        <item name="cornerSizeBottomRight">51dp</item>
+        <item name="cornerSizeBottomLeft">50dp</item>
+    </style>
+
+</resources>

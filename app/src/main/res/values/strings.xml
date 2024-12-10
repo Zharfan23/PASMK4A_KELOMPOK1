@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PASNYOBA</string>
+    <string name="input_email">Masukan Email</string>
+    <string name="input_password">Masukan Password</string>
+</resources>

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDFD"
+    tools:context=".Account">
+
+    <ImageView
+        android:id="@+id/linear"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/keluar"
+        android:contentDescription="Keluar dari aplikasi"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Profile"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="349dp"
+        android:layout_height="68dp"
+        android:layout_marginVertical="16dp"
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp">
+
+        <ImageView
+            android:id="@+id/alien"
+            android:layout_width="65dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:src="@drawable/alien"
+            tools:ignore="MissingConstraints"></ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:text="Fadhlan Baraas E"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <ImageButton
+        android:id="@+id/ImageEditButton"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:background="@drawable/editprofile"
+        android:contentDescription="Tombol edit profile"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="165dp"></ImageButton>
+
+    <ImageButton
+        android:id="@+id/ImageRatingButton"
+        android:layout_width="175dp"
+        android:layout_height="66dp"
+        android:background="@drawable/yourrating"
+        android:contentDescription="Tombol rating"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="165dp"></ImageButton>
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginVertical="16dp"
+        android:background="@drawable/banyak"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="46dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear6"
+        android:layout_width="367dp"
+        android:layout_height="1dp"
+        android:background="#9B9B9B"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="413dp"
+        android:layout_height="1dp"
+        android:background="#E2E2E2"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Details"
+        android:textColor="#181725"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <TextView
+        android:id="@+id/textMyDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Details"
+        android:textColor="#181725"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <TextView
+        android:id="@+id/textPeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dellivery Adreas"
+        android:textColor="#181725"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <TextView
+        android:id="@+id/textPayment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Methods"
+        android:textColor="#181725"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <TextView
+        android:id="@+id/textBayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Methods"
+        android:textColor="#181725"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <TextView
+        android:id="@+id/textPromo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promo Card"
+        android:textColor="#181725"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <TextView
+        android:id="@+id/textNotifcations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifcations "
+        android:textColor="#181725"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <TextView
+        android:id="@+id/textHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help "
+        android:textColor="#181725"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="681dp" />
+
+    <ImageView
+        android:id="@+id/linearDetails"
+        android:layout_width="28dp"
+        android:layout_height="26dp"
+        android:orientation="vertical"
+        android:src="@drawable/name"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <ImageView
+        android:id="@+id/linearPeta"
+        android:layout_width="28dp"
+        android:layout_height="26dp"
+        android:orientation="vertical"
+        android:src="@drawable/peta"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <ImageView
+        android:id="@+id/linearPayment"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:orientation="vertical"
+        android:src="@drawable/payment"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <ImageView
+        android:id="@+id/linearPromo"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:orientation="vertical"
+        android:src="@drawable/diskon"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <ImageView
+        android:id="@+id/linearNotifcations"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:orientation="vertical"
+        android:src="@drawable/notif"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <ImageView
+        android:id="@+id/linearHelp"
+        android:layout_width="26dp"
+        android:layout_height="24dp"
+        android:orientation="vertical"
+        android:src="@drawable/peringatan"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="681dp" />
+
+    <ImageView
+        android:id="@+id/imagepanah2"
+        android:layout_width="20dp"
+        android:layout_height="24dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/panah"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <ImageView
+        android:id="@+id/imagepanah3"
+        android:layout_width="20dp"
+        android:layout_height="24dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/panah"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <ImageView
+        android:id="@+id/imagepanah4"
+        android:layout_width="20dp"
+        android:layout_height="24dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/panah"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <ImageView
+        android:id="@+id/imagepanah5"
+        android:layout_width="20dp"
+        android:layout_height="24dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/panah"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="578dp" />
+
+    <ImageView
+        android:id="@+id/imagepanah6"
+        android:layout_width="20dp"
+        android:layout_height="24dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/panah"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <ImageView
+        android:id="@+id/imagepanah7"
+        android:layout_width="20dp"
+        android:layout_height="24dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/panah"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="681dp" />
+
+    <TextView
+        android:id="@+id/textOrders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orders"
+        android:textColor="#181725"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <ImageView
+        android:id="@+id/imagepanah"
+        android:layout_width="20dp"
+        android:layout_height="24dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/panah"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="349dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <ImageView
+        android:id="@+id/linearOrders"
+        android:layout_width="28dp"
+        android:layout_height="26dp"
+        android:orientation="vertical"
+        android:src="@drawable/belanja"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="363dp"></ImageView>
+
+    <LinearLayout
+        android:id="@+id/linear5"
+        android:layout_width="413dp"
+        android:layout_height="1dp"
+        android:background="#E2E2E2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="413dp"
+        android:layout_height="1dp"
+        android:background="#E2E2E2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"></LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="413dp"
+        android:layout_height="1dp"
+        android:background="#E2E2E2"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="413dp"
+        android:layout_height="1dp"
+        android:background="#E2E2E2"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="564dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="413dp"
+        android:layout_height="1dp"
+        android:background="#E2E2E2"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="668dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
